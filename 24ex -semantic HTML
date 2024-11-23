@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+</head>
+<body>
+    <!-- Site Header with Navigation -->
+    <header role="banner">
+        <nav role="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main role="main">
+        <!-- Page Header -->
+        <header>
+            <h1>Welcome to Our Website</h1>
+            <p>Your source for semantic HTML examples</p>
+        </header>
+
+        <!-- Main Content Section -->
+        <section>
+            <article>
+                <h2>Latest Updates</h2>
+                <p>This is where your main content would go.</p>
+            </article>
+
+            <aside>
+                <h3>Related Information</h3>
+                <p>Supplementary content goes here.</p>
+            </aside>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer role="contentinfo">
+        <p>&copy; 2024 Semantic HTML Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>
